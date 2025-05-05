@@ -1,15 +1,14 @@
-# Ignore everything
-*
-
-# Ignore these directories explicitly
+# Ignore specific directories
 /AxonServer-2024.0.4/
 /AxonServer-2024.0.4/**
 /software/
 /software/**
 
-# Except for these directories
+# Don't ignore these directories and their contents
 !bookservice/
+!bookservice/**
 !discoveryserver/
+!discoveryserver/**
 !.gitignore
 
 # Maven
