@@ -1,0 +1,55 @@
+# Ignore everything
+*
+
+# Ignore these directories explicitly
+/AxonServer-2024.0.4/
+/AxonServer-2024.0.4/**
+/software/
+/software/**
+
+# Except for these directories
+!bookservice/
+!discoveryserver/
+!.gitignore
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
